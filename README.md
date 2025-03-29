@@ -1,28 +1,33 @@
-<h1> <img src="https://github.com/MinhasKamal/DownGit/raw/master/res/images/downgit.png" width="20" height=auto /> DownGit </h1>
+# DownGit
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?business=5KR6BA9MYTM62&no_recurring=0&currency_code=USD)
+A modern tool to create GitHub resource download links with a beautiful dark mode interface.
 
-#### Create GitHub Resource Download Link
+## Features
 
-With this tool you can directly download or create download link to any GitHub **public directory or file**.
+- Download any GitHub public directory or file directly
+- Create download links for GitHub resources
+- Modern dark mode interface
+- Simple and intuitive user interface
+- Support for custom file names and directory structures
 
-### Website
+## How to Use?
 
-[DownGit ↑](https://minhaskamal.github.io/DownGit)
+1. Enter the GitHub file or directory URL in the input field
+2. Click "Create Download Link" to generate a download link
+3. Click "Download" to start downloading immediately
 
-### How to Use?
+### Advanced Usage
 
-<table><tr><td> <img src="https://cloud.githubusercontent.com/assets/5456665/17822364/940bded8-6678-11e6-9603-b84d75bccec1.gif" /> </td></tr></table>
+A typical download URL will look like this: `[your-domain]/#/home?url=<link>&fileName=<name>&rootDirectory=<true or false or name>`
 
-##### Advanced Usage
+Example:
+- For a directory: `[your-domain]/#/home?url=https://github.com/username/repo/tree/master/folder&fileName=MyFolder&rootDirectory=MyCustomName`
+- For a single file: `[your-domain]/#/home?url=https://github.com/username/repo/blob/master/file.txt&fileName=MyFile`
 
-A typical download URL will look like this- `https://minhaskamal.github.io/DownGit/#/home?url=<link>&fileName=<name>&rootDirectory=<true or false or name>`
+## License
 
-Now, if you want to download this directory- **`https://github.com/MinhasKamal/DownGit/tree/master/res/images`** with this file name- **`DownGit-Images.zip`** and this root directory name- **`ImagesOfDownGit`**, then the URL will be- https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/MinhasKamal/DownGit/tree/master/res/images&fileName=DownGit-Images&rootDirectory=ImagesOfDownGit
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-In default, value of `fileName` and `rootDirectory` is set to the name of the downloading file or directory. If you do not want to add the directory itself in the zip, then set `rootDirectory=false`. Like: this link- https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/MinhasKamal/DownGit/tree/master/res/images&rootDirectory=false, will download a file named **`images.zip`**; however the root directory- `"images"`, will not be included in the zip.
+## Credits
 
-If you want to download file- **`https://github.com/MinhasKamal/DownGit/blob/master/res/images/downgit.png`** with name- **`DownGitIcon.zip`**, then the link will be- https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/MinhasKamal/DownGit/blob/master/res/images/downgit.png&fileName=DownGitIcon
-
-### License
-<a rel="license" href="https://opensource.org/licenses/MIT"><img alt="MIT License" src="https://cloud.githubusercontent.com/assets/5456665/18950087/fbe0681a-865f-11e6-9552-e59d038d5913.png" width="60em" height=auto/></a><br/><a href="https://github.com/MinhasKamal/DownGit">DownGit</a> is licensed under <a rel="license" href="https://opensource.org/licenses/MIT">MIT License</a>.
+Created with ❤️ by [5mukx](https://github.com/5mukx)
