@@ -112,6 +112,7 @@ a:hover {
     padding: 20px;
     background-color: var(--bg-secondary);
     border-top: 1px solid var(--border-color);
+    color: var(--text-secondary);
 }
 
 .donate-button {
